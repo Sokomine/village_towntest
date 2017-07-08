@@ -43,8 +43,8 @@ mg_villages.add_building( { scm="towntest_kddekadenz_barn2_1_270",  mts_path=pat
 mg_villages.add_building( { scm="towntest_kddekadenz_castle_3_90",  mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='castle', avoid='castle'});
 mg_villages.add_building( { scm="towntest_kddekadenz_factory_1_90",mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='shed'});
 mg_villages.add_building( { scm="towntest_kddekadenz_gazebo_0_90", mts_path=path, weight={cornernote=1}, inh=-1, typ='park'});
-mg_villages.add_building( { scm="towntest_kddekadenz_home1_1_90",  mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='house'});
-mg_villages.add_building( { scm="towntest_kddekadenz_home2_1_90",  mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='house'});
+mg_villages.add_building( { scm="towntest_kddekadenz_home1_1_270",  mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='house'});
+mg_villages.add_building( { scm="towntest_kddekadenz_home2_1_270",  mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='house'});
 mg_villages.add_building( { scm="towntest_kddekadenz_windmill_0_90",mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='mill',   pervillage = 1});
 
 mg_villages.add_building( { scm="towntest_Nanuk_chapel_1_180",      mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='church', pervillage = 1});
