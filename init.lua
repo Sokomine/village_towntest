@@ -29,9 +29,10 @@ local path = minetest.get_modpath( 'village_towntest' )..'/schems/';
 
 mg_villages.add_building( { scm="towntest_ACDC_house_0_90",        mts_path=path, yoff=1, orients={1}, weight={cornernote=1, single=1}, inh=2,  typ='house'});
 
-mg_villages.add_building( { scm="towntest_cornernote_hut1_1_0",     mts_path=path, weight={cornernote=1}, inh=1,  typ='hut'});
-mg_villages.add_building( { scm="towntest_cornernote_hut2_1_90",    mts_path=path, weight={cornernote=1}, inh=1,  typ='hut'});
-mg_villages.add_building( { scm="towntest_cornernote_hut3_1_180",   mts_path=path, weight={cornernote=1}, inh=1,  typ='hut'});
+-- those "huts" are far too small for almost anything; there's no place for a bed
+mg_villages.add_building( { scm="towntest_cornernote_hut1_1_0",     mts_path=path, weight={cornernote=1}, inh=1,  typ='shed'});
+mg_villages.add_building( { scm="towntest_cornernote_hut2_1_90",    mts_path=path, weight={cornernote=1}, inh=1,  typ='shed'});
+mg_villages.add_building( { scm="towntest_cornernote_hut3_1_180",   mts_path=path, weight={cornernote=1}, inh=1,  typ='shed'});
 mg_villages.add_building( { scm="towntest_cornernote_fortress_4_0", mts_path=path, weight={cornernote=1/6, single=1}, inh=4,  typ='castle', avoid='castle'});
 mg_villages.add_building( { scm="towntest_cornernote_tower_1_90",   mts_path=path, weight={cornernote=1/4}, inh=-1, typ='tower', avoid='tower'});
 mg_villages.add_building( { scm="towntest_cornernote_turret_1_90", mts_path=path, weight={cornernote=1/4}, inh=-1, typ='tower', avoid='tower'});
@@ -41,7 +42,7 @@ mg_villages.add_building( { scm="towntest_irksomeduck_manor_0_90", mts_path=path
 mg_villages.add_building( { scm="towntest_kddekadenz_barn1_1_90",  mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='shed'});
 mg_villages.add_building( { scm="towntest_kddekadenz_barn2_1_90",  mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='shed'});
 mg_villages.add_building( { scm="towntest_kddekadenz_castle_3_90",  mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='castle', avoid='castle'});
-mg_villages.add_building( { scm="towntest_kddekadenz_factory_1_90",mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='shed'});
+mg_villages.add_building( { scm="towntest_kddekadenz_factory_1_90",mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='forge'});
 mg_villages.add_building( { scm="towntest_kddekadenz_gazebo_0_90", mts_path=path, weight={cornernote=1}, inh=-1, typ='park'});
 mg_villages.add_building( { scm="towntest_kddekadenz_home1_1_270",  mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='house'});
 mg_villages.add_building( { scm="towntest_kddekadenz_home2_1_270",  mts_path=path, weight={cornernote=1, single=1}, inh=-1, typ='house'});
